@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1682690402 source:c:\users\asus\desktop\shit\mp\forum 1\main.cpp
+	<iostream>
+
+1682690841 source:c:\users\asus\desktop\shit\mp\forum 1\site.cpp
+	"site.h"
+	<iostream>
+
+1682783810 c:\users\asus\desktop\shit\mp\forum 1\site.h
+	"string"
+	<vector>
+
+1682763514 source:c:\users\asus\desktop\shit\mp\forum 1\documentation.cpp
+	"Documentation.h"
+	"site.h"
+	<iostream>
+	<vector>
+
+1682763514 c:\users\asus\desktop\shit\mp\forum 1\documentation.h
+	"string.h"
+	"site.h"
+	"vector"
+	<iostream>
+
