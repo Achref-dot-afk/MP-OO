@@ -35,11 +35,14 @@
 		<Unit filename="Auteur.cpp" />
 		<Unit filename="Auteur.h" />
 		<Unit filename="Menu Principal lot3.cpp" />
+		<Unit filename="Menu.h" />
 		<Unit filename="MenuVisiteurL3.cpp" />
 		<Unit filename="Profil.cpp" />
 		<Unit filename="Profil.h" />
 		<Unit filename="SousMenuInscritL3.cpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="message.cpp" />
+		<Unit filename="message.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

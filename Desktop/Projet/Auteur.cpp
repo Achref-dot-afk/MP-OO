@@ -2,6 +2,7 @@
 #include <string.h>
 #include "Auteur.h"
 #include "Profil.h"
+#include "message.h"
 #include<vector>
 using namespace std;
 Auteur::Auteur()
@@ -30,35 +31,35 @@ void Auteur::AjouterMsg(Message *m)
 {
     ListeMsg.push_back(m);
 }
+
 void Auteur::SupprimerMsg(int id)
 {
-    for(int i=0;i<ListeMsg.size();i++)
+    for(unsigned int i=0;i<ListeMsg.size();i++)
     {
         if(id==ListeMsg[i]->Id_Msg)
         {
             delete ListeMsg[i];
             ListeMsg[i]=NULL;
-            for (int j = i; j <ListeMsg.size(); j++)
+            for (unsigned int j = i; j <ListeMsg.size(); j++)
                     ListeMsg[j] = ListeMsg[j + 1];
         }
     }
 }
 
-void Auteur:: GetEtatAuteur(int num_inscri)
+string Auteur::GetEtatAuteur(int num_inscri)
 {
-    if(p.num_inscri==num_inscri)
-        cout<<"Auteur Enregistre"
+    if(p->num_inscri==num_inscri)
+        return "Auteur Enregistre";
     else
-        cout<<"Auteur Visiteur"
+        return "Auteur Visiteur";
 }
 
-ostream& operator<<(operator &out,Auteur &A)
+ostream& operator<<(ostream &out,Auteur &A)
 {
-    out<<"Pseudo : "<<A.Pseudo<<endl;
+    out<<"Pseudo : "<<A.pseudo<<endl;
     out<<"Identifiant : "<<A.Id_Auteur<<endl;
     out<<"Date de Premier message : "<<A.DatePremierMsg<<endl;
     out<<"Date de dernier message : "<<A.DateDernierMsg<<endl;
     out<<"Nombre des messages Postes : "<<A.NbMsgPos<<endl;
     return out;
-
 }

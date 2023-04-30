@@ -1,26 +1,25 @@
 #ifndef PROFIL_H_INCLUDED
 #define PROFIL_H_INCLUDED
 #include <iostream>
-#include <string.h>
-#include "profil.h"
-#include "Message.h"
-#include<vector>
-using namespace std;
-class Profil
-{
+#include <string>
+#include <vector>
+
+class Auteur;
+class Profil {
+public:
     int Id_Profil;
     int num_inscri;
-    string nom;
-    string prenom;
+    std::string nom;
+    std::string prenom;
     int tel;
-    string adresse;
-    vector <Auteur *> ListeAuteur;
+    std::string adresse;
+    std::vector<Auteur*>ListeAuteur;
 public:
-    Profil(int id,int num,int tel,string nom,string p,string adr);
-    profil();
+    Profil();
+    Profil(int id, int num, std::string nom, std::string prenom, int tel, std::string adresse);
     void AjouterAuteur(Auteur *A);
     void SupprimerAuteur(int id);
-
+    void CreerProfil();
 };
 
 #endif // PROFIL_H_INCLUDED
