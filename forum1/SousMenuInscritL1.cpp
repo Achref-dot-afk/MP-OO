@@ -3,6 +3,7 @@
 #include "site"
 #include "Documentation.h"
 #include<vector>
+#include <fstream>
 using namespace std;
 
 void SousMenuInscritL1()
@@ -38,7 +39,13 @@ void SousMenuInscritL1()
     {
     case 1:
         {
+
             ajouter_site(&s);
+             ofstream outFile;
+            outFile.open("Fiche SITE");
+            outFile <<A.url<<endl;
+            outFile <<s.id_site<<endl;
+            outFile.close();
             SousMenuInscritL1();
         }
     case 2:

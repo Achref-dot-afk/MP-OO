@@ -61,7 +61,7 @@ void list_site::ajouter_site(site* sit)
     }
 void Site::site_afficher()
 {
-    for(int i;list_site.size();i++)
+    for(int i;i<list_site.size();i++)
     {
         cout<<list_site[i]<<endl;
     }
