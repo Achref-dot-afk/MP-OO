@@ -1,0 +1,140 @@
+# depslib dependency file v1.0
+1682849750 source:c:\users\achref\desktop\mp-oo\desktop\projet\profil.cpp
+	<iostream>
+	<string.h>
+	"Profil.h"
+	"Message.h"
+	"Auteur.h"
+	<vector>
+
+1682886290 c:\users\achref\desktop\mp-oo\desktop\projet\profil.h
+	<iostream>
+	<string>
+	<vector>
+
+1682851947 c:\users\achref\desktop\mp-oo\desktop\projet\message.h
+	<string>
+	<vector>
+	<iostream>
+
+1682887003 source:c:\users\achref\desktop\mp-oo\desktop\projet\message.cpp
+	<iostream>
+	<string.h>
+	"message.h"
+
+1683054584 source:c:\users\achref\desktop\mp-oo\desktop\projet\menu principal lot3.cpp
+	<iostream>
+	<string.h>
+	"Profil.h"
+	"Message.h"
+	"Auteur.h"
+	"Menu.h"
+	<vector>
+
+1682851873 c:\users\achref\desktop\mp-oo\desktop\projet\auteur.h
+	<iostream>
+	<string>
+	<vector>
+	"Profil.h"
+	"message.h"
+
+1682845590 c:\users\achref\desktop\mp-oo\desktop\projet\menu.h
+
+1682889482 source:c:\users\achref\desktop\mp-oo\desktop\projet\menuvisiteurl3.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	"Profil.h"
+	"Message.h"
+	"Auteur.h"
+	"Menu.h"
+	<vector>
+
+1682851925 source:c:\users\achref\desktop\mp-oo\desktop\projet\auteur.cpp
+	<iostream>
+	<string.h>
+	"Auteur.h"
+	"Profil.h"
+	"message.h"
+	<vector>
+
+1683054003 source:c:\users\achref\desktop\mp-oo\desktop\projet\main.cpp
+	<iostream>
+	<string.h>
+	"Auteur.h"
+	"Profil.h"
+	"Message.h"
+	"Menu.h"
+	"MenuLot2.h"
+	"MenuPrincipalForum.h"
+	<vector>
+
+1682888824 source:c:\users\achref\desktop\mp-oo\desktop\projet\sousmenuinscritl3.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	"Profil.h"
+	"Auteur.h"
+	"Menu.h"
+	"message.h"
+	<vector>
+
+1683054803 source:c:\users\achref\desktop\mp-oo\desktop\projet\menu-principal.cpp
+	<iostream>
+	<string.h>
+	"Rubrique.h"
+	"Message.h"
+	<vector>
+	"MenuLot2.h"
+
+1683052967 c:\users\achref\desktop\mp-oo\desktop\projet\rubrique.h
+	<string>
+	<vector>
+	<iostream>
+	"site.h"
+
+1683053535 c:\users\achref\desktop\mp-oo\desktop\projet\site.h
+	"string"
+	<vector>
+
+1683051962 c:\users\achref\desktop\mp-oo\desktop\projet\menulot2.h
+
+1683150600 source:c:\users\achref\desktop\mp-oo\desktop\projet\menuvisiteurl2.cpp
+	<iostream>
+	<string.h>
+	"Rubrique.h"
+	"Message.h"
+	<vector>
+	"MenuLot2.h"
+
+1683053535 source:c:\users\achref\desktop\mp-oo\desktop\projet\site.cpp
+	"site.h"
+	<iostream>
+
+1683150522 source:c:\users\achref\desktop\mp-oo\desktop\projet\sousmenuinscritl2.cpp
+	<iostream>
+	<string.h>
+	"Rubrique.h"
+	"Message.h"
+	"site.h"
+	<vector>
+	"MenuLot2.h"
+	"Menu.h"
+
+1683052967 source:c:\users\achref\desktop\mp-oo\desktop\projet\rubrique.cpp
+	<iostream>
+	<string.h>
+	"Rubrique.h"
+	"site.h"
+
+1683054003 c:\users\achref\desktop\mp-oo\desktop\projet\menuprincipalforum.h
+
+1683150235 source:c:\users\achref\desktop\mp-oo\desktop\projet\menuprincipalforum.cpp
+	<iostream>
+	<string.h>
+	"Rubrique.h"
+	"Message.h"
+	<vector>
+	"MenuLot2.h"
+	"Menu.h"
+
