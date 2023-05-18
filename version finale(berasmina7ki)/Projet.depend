@@ -1,0 +1,174 @@
+# depslib dependency file v1.0
+1682849750 source:c:\users\achref\desktop\mp-oo\desktop\projet\profil.cpp
+	<iostream>
+	<string.h>
+	"Profil.h"
+	"Message.h"
+	"Auteur.h"
+	<vector>
+
+1682886290 c:\users\achref\desktop\mp-oo\desktop\projet\profil.h
+	<iostream>
+	<string>
+	<vector>
+
+1684421384 c:\users\achref\desktop\mp-oo\desktop\projet\message.h
+	<string>
+	<vector>
+	<iostream>
+
+1684421595 source:c:\users\achref\desktop\mp-oo\desktop\projet\message.cpp
+	<iostream>
+	<string.h>
+	"message.h"
+	<limits>
+
+1684333098 source:c:\users\achref\desktop\mp-oo\desktop\projet\menu principal lot3.cpp
+	<iostream>
+	<string.h>
+	"Profil.h"
+	"Message.h"
+	"Auteur.h"
+	"Menu.h"
+	<windows.h>
+	<vector>
+
+1684065451 c:\users\achref\desktop\mp-oo\desktop\projet\auteur.h
+	<iostream>
+	<string>
+	<vector>
+	"Profil.h"
+	"message.h"
+
+1684329434 c:\users\achref\desktop\mp-oo\desktop\projet\menu.h
+
+1684422895 source:c:\users\achref\desktop\mp-oo\desktop\projet\menuvisiteurl3.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	"Profil.h"
+	"Message.h"
+	"Auteur.h"
+	"Menu.h"
+	<sstream>
+	<fstream>
+	<vector>
+	<windows.h>
+	"methode_printbox.h"
+
+1684065558 source:c:\users\achref\desktop\mp-oo\desktop\projet\auteur.cpp
+	<iostream>
+	<string.h>
+	"Auteur.h"
+	"Profil.h"
+	"message.h"
+	<vector>
+
+1684333047 source:c:\users\achref\desktop\mp-oo\desktop\projet\main.cpp
+	<iostream>
+	<string.h>
+	"Auteur.h"
+	"Profil.h"
+	"Message.h"
+	"Menu.h"
+	"MenuLot2.h"
+	"MenuPrincipalForum.h"
+	<windows.h>
+	<vector>
+
+1684333169 source:c:\users\achref\desktop\mp-oo\desktop\projet\sousmenuinscritl3.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	"Profil.h"
+	"Auteur.h"
+	"Menu.h"
+	"message.h"
+	<vector>
+	<windows.h>
+
+1684422570 source:c:\users\achref\desktop\mp-oo\desktop\projet\menu-principal.cpp
+	<iostream>
+	<string.h>
+	"Rubrique.h"
+	"Message.h"
+	<vector>
+	<windows.h>
+	"MenuLot2.h"
+	"Menu.h"
+
+1684061444 c:\users\achref\desktop\mp-oo\desktop\projet\rubrique.h
+	<string>
+	<vector>
+	<iostream>
+	"Message.h"
+	"site.h"
+
+1684054982 c:\users\achref\desktop\mp-oo\desktop\projet\site.h
+	"string"
+	<vector>
+
+1684066115 c:\users\achref\desktop\mp-oo\desktop\projet\menulot2.h
+	"Auteur.h"
+
+1684422888 source:c:\users\achref\desktop\mp-oo\desktop\projet\menuvisiteurl2.cpp
+	<iostream>
+	<string.h>
+	"Rubrique.h"
+	"Message.h"
+	<vector>
+	<windows.h>
+	"methode_printbox.h"
+	"MenuLot2.h"
+
+1683053535 source:c:\users\achref\desktop\mp-oo\desktop\projet\site.cpp
+	"site.h"
+	<iostream>
+
+1684428513 source:c:\users\achref\desktop\mp-oo\desktop\projet\sousmenuinscritl2.cpp
+	<iostream>
+	<string.h>
+	<fstream>
+	"Rubrique.h"
+	"Message.h"
+	"site.h"
+	<vector>
+	<algorithm>
+	<ctime>
+	"MenuLot2.h"
+	"Auteur.h"
+	"Menu.h"
+	"methode_printbox.h"
+	<windows.h>
+	<sstream>
+
+1684061480 source:c:\users\achref\desktop\mp-oo\desktop\projet\rubrique.cpp
+	<iostream>
+	<string.h>
+	"Rubrique.h"
+	"site.h"
+
+1683054003 c:\users\achref\desktop\mp-oo\desktop\projet\menuprincipalforum.h
+
+1684333278 source:c:\users\achref\desktop\mp-oo\desktop\projet\menuprincipalforum.cpp
+	<iostream>
+	<string.h>
+	"Rubrique.h"
+	"Message.h"
+	<vector>
+	"MenuLot2.h"
+	<windows.h>
+	"Menu.h"
+
+1683150896 source:c:\users\achref\desktop\mp-oo\desktop\projet\documentation.cpp
+
+1684272413 source:c:\users\achref\desktop\mp-oo\desktop\projet\methode_printbox.cpp
+	<iostream>
+	<sstream>
+
+1684270335 c:\users\achref\desktop\mp-oo\desktop\projet\methode_printbox.h
+
+1684427652 source:c:\users\achref\desktop\mp-oo\desktop\projet\transformtodatetype.cpp
+	<iostream>
+	<string>
+
